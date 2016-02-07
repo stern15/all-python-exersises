@@ -1,8 +1,8 @@
 def main():
 	donald=duck()
 	chevro=dog()
-	donald.sound()
-	donald.walk()
+	print(donald.sound())
+	print(donald.walk())
 class animal:
 	def talk(self):
 		print("i try to express myself")
@@ -13,7 +13,7 @@ class duck(animal):
 	def sound(self):
 		print("i quancckkkkk")
 	def walk(self):
-		super().walk()
+		#super().walk()
 		print("i walk like a duck")
 
 class dog(animal):
